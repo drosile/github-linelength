@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Github line length addon",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "css": ["style.css"]
+  }]
+}

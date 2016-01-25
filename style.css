@@ -1,0 +1,20 @@
+.diff-table {
+   position: relative;
+}
+.line-comments {
+    z-index: 5;
+    position: relative;
+}
+.diff-table:after {
+   content: '';
+   font-size: 0.555em;
+   position: absolute;
+   display: block;
+   height: 100%;
+   top: 0;
+   width: 80em;
+   left: 15.3em;
+   opacity: 0.5;
+   border-right: 1em solid #cccccc;
+   z-index: 1;
+}
